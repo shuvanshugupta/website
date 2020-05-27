@@ -1,0 +1,188 @@
+body{
+  margin:0;
+}
+
+
+.aside{
+
+    width:20%;
+
+    float:left;
+}
+
+.navbar a.active{
+
+    background-color:green;
+    color:white;
+}
+
+.navbar{
+
+    background-color:white;
+
+    height:40px;
+
+    box-shadow:2px 2px 2px 2px rgba(0,0,0,0.1);
+    border-radius:5px;
+    overflow:hidden;
+
+}
+
+.navbar a
+{
+
+    padding:20px;
+    text-decoration:none;
+
+    color:black;
+
+    font-family:georgia;
+
+    text-align:center;
+
+    font-size:30px;
+
+    
+}
+
+.navbar a:hover{
+
+    color:white;
+    padding:20px;
+
+
+    background-color: grey;
+}
+
+.header {
+
+    height:65px;
+
+    width:100%;
+
+    background-color:white;
+
+    box-shadow:2px 2px 2px 2px rgba(0,0,0,0.1);
+    border-radius:5px;
+    transition:0.3s;
+    overflow:hidden;
+position:relative;
+}
+
+.header img.left {
+
+  float: left;
+
+  width: 65px;
+
+  height: 65px;
+
+}
+
+
+
+.header img.right {
+
+  float: right;
+
+  width: 65px;
+
+  height: 65px;
+
+}
+
+.header h2 {
+
+  position:relative;
+  top: 0px;
+
+  left: 15px;
+
+  font-family:georgia;
+
+  font-size:25px;
+
+  text-align:center;
+}
+
+.header a{
+  color:black;
+  text-decoration:none;
+}
+.header a:hover{
+  text-decoration:underline;
+  color:green;
+}
+img{
+width:100%;
+}
+.footer{
+  background-color:#ddd;
+  color:green;
+  box-shadow:2px 2px 2px 2px rgba(0,0,0,0.1);
+width:100%;
+height:40px;
+position:relative;
+display:inline-block;
+margin:5px 0 0 0;
+}
+.footer p{
+  position:absolute;
+  top:2%;
+  left:27%;
+  text-align:center;
+font-family:Arial;
+}
+.article{
+font-family:Corbel;
+width:80%;
+float:right;
+}
+.article p,li{
+ font-size:18px;
+}
+.article h3{
+  font-size:18px;
+  color:green;
+}
+.article img{
+width:100%;
+margin:10px 0 0 0;
+border-radius:5px;
+}
+.sticky{
+  position:fixed;
+  top:0;
+  width:100%;
+}
+.card{
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 90%;
+  border-radius: 5px;
+  display:inline-block;
+  margin:8px;
+}
+.container {
+  padding: 2px 16px;
+  font-family:Corbel;
+word-wrap:break-word;
+}
+img {
+  border-radius: 5px 5px 0 0;
+}
+.card:hover {
+  box-shadow: 0 10px 20px 0 rgba(0,0,0,0.2);
+}
+.card .container a{
+  text-decoration:none;
+  color:green;
+}
+.aside .card h3{
+  text-align:center; 
+  padding:8px; 
+  border-radius:5px 5px 0 0; 
+  color:white; 
+  background-color:green; 
+  font-family:Corbel;
+}

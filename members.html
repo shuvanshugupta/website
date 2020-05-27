@@ -1,0 +1,583 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<title>Members</title>
+<link rel="icon" href="logo.jpg" type="image/x-icon">
+<style>
+
+
+
+body{
+  margin:0;
+}
+
+.aside{
+
+    width:20%;
+    float:left;
+}
+
+.c1{
+  float:right;
+  width:80%;
+}
+.navbar a.act{
+
+    background-color:green;
+    color:white;
+}
+
+.navbar{
+
+    background-color:white;
+
+    height:40px;
+
+    box-shadow:2px 2px 2px 2px rgba(0,0,0,0.1);
+    border-radius:5px;
+    overflow:hidden;
+
+    margin:0 0 10px 0;
+}
+
+.navbar a
+{
+
+    padding:20px;
+    text-decoration:none;
+
+    color:black;
+
+    font-family:georgia;
+
+    text-align:center;
+
+    font-size:30px;
+
+    
+}
+
+.navbar a:hover{
+
+    color:white;
+    padding:20px;
+
+
+    background-color: grey;
+}
+
+.header {
+
+    height:65px;
+
+    width:100%;
+
+    background-color:white;
+
+    box-shadow:2px 2px 2px 2px rgba(0,0,0,0.1);
+    border-radius:5px;
+    transition:0.3s;
+    overflow:hidden;
+position:relative;
+}
+
+.header img.left {
+
+  float: left;
+
+  width: 65px;
+
+  height: 65px;
+
+}
+
+
+.header img.right {
+
+  float: right;
+
+  width: 65px;
+
+  height: 65px;
+
+}
+
+
+.header h2 {
+
+  position:relative;
+  top: 0px;
+
+  left: 15px;
+
+  font-family:georgia;
+
+  font-size:25px;
+
+  text-align:center;
+}
+
+.header a{
+  color:black;
+  text-decoration:none;
+}
+.header a:hover{
+  text-decoration:underline;
+  color:green;
+}
+img{
+width:100%;
+}
+.footer{
+  background-color:#ddd;
+  color:green;
+  box-shadow:2px 2px 2px 2px rgba(0,0,0,0.1);
+width:100%;
+height:40px;
+position:relative;
+display:inline-block;
+margin:5px 0 0 0;
+}
+.footer p{
+  top:2%;
+  left:27%;
+  text-align:center;
+font-family:Arial;
+}
+.article{
+font-family:Corbel;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 23%;
+  border-radius: 5px;
+  display:inline-block;
+  margin:8px;
+}
+.aside .card{
+  width:90%;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  border-radius: 5px;
+  display:inline-block;
+  margin:8px;
+  
+}
+
+  
+}
+.card:hover {
+  box-shadow: 0 10px 20px 0 rgba(0,0,0,0.2);
+}
+
+img {
+  border-radius: 5px 5px 0 0;
+}
+
+.container {
+  padding: 2px 16px;
+  font-family:Corbel;
+}
+.accordion {
+  background-color: #e6ffe6;
+  color: green;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 16px;
+  transition: 0.7s;
+  border-radius:5px;
+  margin:1px;
+}
+
+.active, .accordion:hover {
+  background-color: #ccffcc;
+}
+
+.accordion:after {
+  content: '\002B';
+  color: #777;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2212";
+}
+
+.panel {
+  padding: 0 18px;
+  background-color: white;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+.c1 .panel .card .container p{
+word-wrap:break-word;
+}
+.c1 .panel .card .container a{
+  text-decoration:none;
+  color:green;
+}
+.sticky{
+  position:fixed;
+  top:0;
+  width:100%;
+}
+.card .container a{
+  text-decoration:none;
+  color:green;
+}
+.aside .card h3{
+  text-align:center; 
+  padding:8px; 
+  border-radius:5px 5px 0 0; 
+  color:white; 
+  background-color:green; 
+  font-family:Corbel;
+}
+</style>
+
+</head>
+
+<body>
+
+<div class="header">
+
+    <a href="http://www.ietlucknow.ac.in/"><img class="left" src="logo.jpg"></a>
+   
+<a href="http://aktu.ac.in/"><img class="right" src="aktu.png"></a> 
+<h2><a href="login.html">DEPARTMENT OF COMPUTER SCIENCE AND ENGINEERING</a></h2>
+
+
+</div>
+
+
+<img src="C:\Users\hp\Desktop\website\quote.png">
+<div class="navbar" id="navbar">
+
+    <a href="home.html">Home</a>
+
+    <a href="wow.html">Words of wisdom</a>
+
+    <a class="act" href="members.html">Members</a>
+    <a href="syllabus.html">Syllabus</a>
+    <a href="https://placement.ietlucknow.ac.in/">Placements</a>
+    <a href="labs.html">Laboratories</a>
+
+    <a href="contact.html">Contact Us</a>
+</div>
+
+<div class="aside">
+   <div class="card">
+  <img src="img_avatar.png" alt="Avatar" style="width:100%">
+  <div class="container">
+    <h4><b>Prof. H K Paliwal</b></h4> 
+    <p><b>Designation:</b></p>
+    <p>Director</p>
+    <a href="https://scholar.google.co.in/citations?user=1lhVUxAAAAAJ&amp;hl=en&amp;oi=ao">Google Citations</a>
+  </div>
+</div>
+    <div class="card">
+  <img src="img_avatar.png" alt="Avatar" style="width:100%">
+  <div class="container">
+    <h4><b>Dr. Divakar Singh Yadav</b></h4> 
+    <p><b>Designation:</b></p>
+    <p>Professor(HOD)</p>
+    <a href="https://scholar.google.co.in/citations?user=1lhVUxAAAAAJ&amp;hl=en&amp;oi=ao">Google Citations</a>
+  </div>
+  </div>
+  <div class="card">
+  <h3>NOTICES</h3>
+  <div class="container">
+    <p>Safety Guidelines for COVID-19</p>
+    <p>Notice for Exams after Lockdown</p>
+  </div>
+  </div>
+</div>
+<div class="c1">
+<button class="accordion">Regular Faculties</button>
+<div class="panel">
+  <div class="card">
+  <img src="img_avatar.png" alt="Avatar" style="width:100%">
+  <div class="container">
+    <h4><b>Dr. Divakar Singh Yadav</b></h4> 
+    <p><b>Designation:</b></p>
+    <p>Professor(HOD)</p>
+    <p><b>College Email:</b></p>
+    <p>dsyadav@ietlucknow.ac.in</p> 
+    <a href="https://scholar.google.co.in/citations?user=1lhVUxAAAAAJ&amp;hl=en&amp;oi=ao">Google Citations</a>
+  </div>
+</div>
+<div class="card">
+  <img src="img_avatar.png" alt="Avatar" style="width:100%">
+  <div class="container">
+    <h4><b>Dr. Surya P Tripathi</b></h4> 
+    <p><b>Designation:</b></p>
+    <p>Professor</p>
+    <p><b>College Email:</b></p>
+    <p>surya.tripathi@ietlucknow.ac.in</p> 
+  </div>
+</div>
+<div class="card">
+  <img src="img_avatar.png" alt="Avatar" style="width:100%">
+  <div class="container">
+    <h4><b>Dr. Girish Chandra</b></h4> 
+    <p><b>Designation:</b></p>
+    <p><t>Professor</p>
+    <p><b>College Email:</b></p>
+    <p><t>girish.chandra@ietlucknow.ac.in</p> 
+  </div>
+</div>
+<div class="card">
+  <img src="img_avatar.png" alt="Avatar" style="width:100%">
+  <div class="container">
+    <h4><b>Mr. Manik Chandra</b></h4> 
+    <p><b>Designation:</b></p>
+    <p>Associate Professor</p>
+    <p><b>College Email:</b></p>
+    <p>manik.chandra@ietlucknow.ac.in</p> 
+  </div>
+</div>
+<div class="card">
+  <img src="img_avatar.png" alt="Avatar" style="width:100%">
+  <div class="container">
+    <h4><b>Dr. Manish Gaur</b></h4> 
+    <p><b>Designation:</b></p>
+    <p>Professor</p>
+    <p><b>College Email:</b></p>
+    <p>manish.gaur@ietlucknow.ac.in</p> 
+  </div>
+</div>
+<div class="card">
+  <img src="img_avatar.png" alt="Avatar" style="width:100%">
+  <div class="container">
+    <h4><b>Mr. Natthan Singh</b></h4> 
+    <p><b>Designation:</b></p>
+    <p>Assistant Professor</p>
+    <p><b>College Email:</b></p>
+    <p>natthan.singh@ietlucknow.ac.in</p> 
+  </div>
+</div>
+<div class="card">
+  <img src="img_avatar.png" alt="Avatar" style="width:100%">
+  <div class="container">
+    <h4><b>Dr. Pawan Kumar Tiwari</b></h4> 
+    <p><b>Designation:</b></p>
+    <p>Assistant Professor</p>
+    <p><b>College Email:</b></p>
+    <p>pawantiwari@ietlucknow.ac.in</p> 
+    <a href="https://scholar.google.co.in/citations?user=DFLf2gEAAAAJ&amp;hl=en">Google Citations</a>
+  </div>
+</div>
+<div class="card">
+  <img src="img_avatar.png" alt="Avatar" style="width:100%">
+  <div class="container">
+    <h4><b>Dr. Y N Singh</b></h4> 
+    <p><b>Designation:</b></p>
+    <p>Professor</p>
+    <p><b>College Email:</b></p>
+    <p>singhyn@ietlucknow.ac.in</p> 
+  </div>
+</div>
+</div>
+
+<button class="accordion">Contractual Faculties</button>
+<div class="panel">
+  <div class="card">
+  <img src="img_avatar2.png" alt="Avatar" style="width:100%">
+  <div class="container">
+    <h4><b>Er. Tulika Narang</b></h4>
+    <p><b>Designation:</b></p> 
+    <p>Assistant Professor</p>
+    <p><b>College Email:</b></p> 
+    <p>tnarang.csed.cf@ietlucknow.ac.in</p>
+  </div>
+</div>
+<div class="card">
+  <img src="img_avatar2.png" alt="Avatar" style="width:100%">
+  <div class="container">
+    <h4><b>Er. Mudita Sharan</b></h4>
+    <p><b>Designation:</b></p> 
+    <p>Assistant Professor</p>
+    <p><b>College Email:</b></p> 
+    <p>msharan.csed.cf@ietlucknow.ac.in</p>
+  </div>
+</div>
+<div class="card">
+  <img src="img_avatar2.png" alt="Avatar" style="width:100%">
+  <div class="container">
+    <h4><b>Er. Sameeksha Tandon</b></h4>
+    <p><b>Designation:</b></p> 
+    <p>Assistant Professor</p>
+    <p><b>College Email:</b></p> 
+    <p>standon.csed.cf@ietlucknow.ac.in</p>
+  </div>
+</div>
+<div class="card">
+  <img src="img_avatar2.png" alt="Avatar" style="width:100%">
+  <div class="container">
+    <h4><b>Er. Deepa Verma</b></h4>
+    <p><b>Designation:</b></p> 
+    <p>Assistant Professor</p>
+    <p><b>College Email:</b></p> 
+    <p>dverma.csed.cf@ietlucknow.ac.in</p>
+  </div>
+</div>
+  <div class="card">
+  <img src="img_avatar2.png" alt="Avatar" style="width:100%">
+  <div class="container">
+    <h4><b>Er. Deepali Avasthi</b></h4>
+    <p><b>Designation:</b></p> 
+    <p>Assistant Professor</p>
+    <p><b>College Email:</b></p> 
+    <p>davasthi.csed.cf@ietlucknow.ac.in</p>
+  </div>
+</div>
+<div class="card">
+  <img src="img_avatar2.png" alt="Avatar" style="width:100%">
+  <div class="container">
+    <h4><b>Er. Pratibha Pandey</b></h4>
+    <p><b>Designation:</b></p> 
+    <p>Assistant Professor</p>
+    <p><b>College Email:</b></p> 
+    <p>ppandey.csed.cf@ietlucknow.ac.in</p>
+  </div>
+</div>
+</div>
+
+<button class="accordion">Research cum Teaching Fellows</button>
+<div class="panel">
+  <div class="card">
+  <img src="img_avatar.png" alt="Avatar" style="width:100%">
+  <div class="container">
+    <h4><b>Abhay Kumar Vajpayee</b></h4> 
+    <p><b>College Email:</b></p> 
+    <p>2407@ietlucknow.ac.in</p>
+  </div>
+</div>
+<div class="card">
+  <img src="img_avatar2.png" alt="Avatar" style="width:100%">
+  <div class="container">
+    <h4><b>Abhishek Singh</b></h4> 
+    <p><b>College Email:</b></p> 
+    <p>2216@ietlucknow.ac.in</p>
+  </div>
+</div>
+<div class="card">
+  <img src="img_avatar2.png" alt="Avatar" style="width:100%">
+  <div class="container">
+    <h4><b>Annie Irfan</b></h4> 
+    <p><b>College Email:</b></p> 
+    <p>2102@ietlucknow.ac.in</p>
+  </div>
+</div>
+<div class="card">
+  <img src="img_avatar.png" alt="Avatar" style="width:100%">
+  <div class="container">
+    <h4><b>Ashutosh Singh</b></h4> 
+    <p><b>College Email:</b></p> 
+    <p>2103@ietlucknow.ac.in</p>
+  </div>
+</div>
+<div class="card">
+  <img src="img_avatar2.png" alt="Avatar" style="width:100%">
+  <div class="container">
+    <h4><b>Esha Tripathi</b></h4> 
+    <p><b>College Email:</b></p> 
+    <p>2219@ietlucknow.ac.in</p>
+  </div>
+</div>
+<div class="card">
+  <img src="img_avatar.png" alt="Avatar" style="width:100%">
+  <div class="container">
+    <h4><b>Shashank Yadav</b></h4> 
+    <p><b>College Email:</b></p> 
+    <p>2410@ietlucknow.ac.in</p>
+  </div>
+</div>
+<div class="card">
+  <img src="img_avatar2.png" alt="Avatar" style="width:100%">
+  <div class="container">
+    <h4><b>Sonam Shrivastava</b></h4> 
+    <p><b>College Email:</b></p> 
+    <p>192001513@ietlucknow.ac.in</p>
+  </div>
+</div>
+<div class="card">
+  <img src="img_avatar2.png" alt="Avatar" style="width:100%">
+  <div class="container">
+    <h4><b>Sudhani Verma</b></h4> 
+    <p><b>College Email:</b></p> 
+    <p>2307@ietlucknow.ac.in</p>
+  </div>
+</div>
+</div>
+
+<button class="accordion">Class Representatives</button>
+<div class="panel">
+  <div class="card">
+  <img src="img_avatar2.png" alt="Avatar" style="width:100%">
+  <div class="container">
+    <h4><b>Jane Doe</b></h4> 
+    <p>Interior Designer</p> 
+  </div>
+</div>
+</div>
+
+<button class="accordion">Students</button>
+<div class="panel">
+  <div class="card">
+  <img src="img_avatar2.png" alt="Avatar" style="width:100%">
+  <div class="container">
+    <h4><b>Jane Doe</b></h4> 
+    <p>Interior Designer</p> 
+  </div>
+</div>
+</div>
+</div>
+<div class="footer">
+   <p>Made by Shuvanshu Gupta as part of Web Designing project. Submitted to Prof. Tulika Narang</p>
+</div>
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.maxHeight) {
+      panel.style.maxHeight = null;
+    } else {
+      panel.style.maxHeight = panel.scrollHeight + "px";
+    } 
+  });
+}
+</script>
+<script>
+window.onscroll = function() {myFunction()};
+
+var navbar = document.getElementById("navbar");
+var sticky = navbar.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+</script>
+
+</body>
+
+</html>

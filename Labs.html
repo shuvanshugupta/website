@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<title>Laboratories</title>
+<link rel="icon" href="logo.jpg" type="image/x-icon">
+<style>
+
+
+body{
+  margin:0;
+}
+
+.aside{
+
+    width:20%;
+    float:left;
+}
+
+.c1{
+  position:relative;
+  float:right;
+  width:85%;
+}
+.navbar a.act{
+
+    background-color:green;
+    color:white;
+}
+
+.navbar{
+
+    background-color:white;
+
+    height:40px;
+
+    box-shadow:2px 2px 2px 2px rgba(0,0,0,0.1);
+    border-radius:5px;
+    overflow:hidden;
+
+    margin:0 0 10px 0;
+}
+
+.navbar a
+{
+
+    padding:20px;
+    text-decoration:none;
+
+    color:black;
+
+    font-family:georgia;
+
+    text-align:center;
+
+    font-size:30px;
+
+    
+}
+
+.navbar a:hover{
+
+    color:white;
+    padding:20px;
+
+
+    background-color: grey;
+}
+
+.header {
+
+    height:65px;
+
+    width:100%;
+
+    background-color:white;
+
+    box-shadow:2px 2px 2px 2px rgba(0,0,0,0.1);
+    border-radius:5px;
+    transition:0.3s;
+    overflow:hidden;
+position:relative;
+}
+
+.header img.left {
+
+  float: left;
+
+  width: 65px;
+
+  height: 65px;
+
+}
+
+
+.header img.right {
+
+  float: right;
+
+  width: 65px;
+
+  height: 65px;
+
+}
+
+
+.header h2 {
+
+  position:relative;
+  top: 0px;
+
+  left: 15px;
+
+  font-family:georgia;
+
+  font-size:25px;
+
+  text-align:center;
+}
+
+.header a{
+  color:black;
+  text-decoration:none;
+}
+.header a:hover{
+  text-decoration:underline;
+  color:green;
+}
+img{
+width:100%;
+}
+.footer{
+  background-color:#ddd;
+  color:green;
+  box-shadow:2px 2px 2px 2px rgba(0,0,0,0.1);
+width:100%;
+height:40px;
+position:relative;
+display:inline-block;
+margin:5px 0 0 0;
+}
+.footer p{
+  top:2%;
+  left:27%;
+  text-align:center;
+font-family:Arial;
+}
+.article{
+font-family:Corbel;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 90%;
+  border-radius: 5px;
+  display:inline-block;
+  margin:8px;
+}
+
+.card:hover {
+  box-shadow: 0 10px 20px 0 rgba(0,0,0,0.2);
+}
+
+img {
+  border-radius: 5px 5px 0 0;
+}
+
+.container {
+  padding: 2px 16px;
+  font-family:Corbel;
+word-wrap:break-word;
+}
+.accordion {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+  border-radius:5px;
+  margin:1px;
+}
+
+.active, .accordion:hover {
+  background-color: #ccc;
+}
+
+.accordion:after {
+  content: '\002B';
+  color: #777;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2212";
+}
+
+.panel {
+  padding: 0 18px;
+  background-color: white;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+.c1 .panel .card .container p{
+word-wrap:break-word;
+}
+.c1 .panel .card .container a{
+  text-decoration:none;
+  color:green;
+}
+a .card .container p{
+  color:green;
+}
+.c2 h3{
+  color:green;
+}
+.c2{
+display:inline-block;
+width:650px;
+font-family:Corbel;
+text-align:center;
+vertical-align:top;
+font-size:25px;
+line-height:15px;
+}
+.cont{
+  display:inline-block;
+  width:620px;
+  background-color:#e6ffe6;
+padding:20px;
+border-radius:10px;
+}
+.cont h3{
+color:green;
+}
+form{
+  font-family:Corbel;
+  width:100%;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin:10px;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+.section{
+   font-family:Corbel;
+   width:80%;
+   float:right;
+}
+
+.section th,td{
+border-bottom: 1px solid green;
+padding:15px;
+text-align:center;
+}
+.section table{
+   width:100%;
+   margin:10px;
+}
+.section tr:nth-child(even) {background-color: #e6ffe6;}
+.section th{
+color:green;
+}
+.section a{
+   text-decoration:none;
+   color:green;
+}
+.section a:hover{
+   text-decoration:underline;
+}
+.section tr:hover{
+   box-shadow:2px 2px 2px 2px rgba(0,0,0,0.1);
+}
+.section p{
+font-size:18px;
+} 
+.sticky{
+  position:fixed;
+  top:0;
+  width:100%;
+}
+.card .container a{
+  text-decoration:none;
+  color:green;
+}
+.aside .card h3{
+  text-align:center; 
+  padding:8px; 
+  border-radius:5px 5px 0 0; 
+  color:white; 
+  background-color:green; 
+  font-family:Corbel;
+}
+</style>
+
+</head>
+
+<body>
+
+<div class="header">
+
+    <a href="http://www.ietlucknow.ac.in/"><img class="left" src="logo.jpg"></a>
+   
+<a href="http://aktu.ac.in/"><img class="right" src="aktu.png"></a> 
+<h2><a href="login.html">DEPARTMENT OF COMPUTER SCIENCE AND ENGINEERING</a></h2>
+
+
+</div>
+
+
+<img src="C:\Users\hp\Desktop\website\quote.png">
+<div class="navbar" id="navbar">
+
+    <a href="home.html">Home</a>
+
+    <a href="wow.html">Words of wisdom</a>
+
+    <a href="members.html">Members</a>
+    <a href="syllabus.html">Syllabus</a>
+    <a href="https://placement.ietlucknow.ac.in/">Placements</a>
+    <a class="act" href="labs.html">Laboratories</a>
+
+    <a href="contact.html">Contact Us</a>
+</div>
+
+<div class="aside">
+   <div class="card">
+  <img src="img_avatar.png" alt="Avatar" style="width:100%">
+  <div class="container">
+    <h4><b>Prof. H K Paliwal</b></h4> 
+    <p><b>Designation:</b></p>
+    <p>Director</p>
+    <a href="https://scholar.google.co.in/citations?user=1lhVUxAAAAAJ&amp;hl=en&amp;oi=ao">Google Citations</a>
+  </div>
+</div>
+    <div class="card">
+  <img src="img_avatar.png" alt="Avatar" style="width:100%">
+  <div class="container">
+    <h4><b>Dr. Divakar Singh Yadav</b></h4> 
+    <p><b>Designation:</b></p>
+    <p>Professor(HOD)</p>
+    <a href="https://scholar.google.co.in/citations?user=1lhVUxAAAAAJ&amp;hl=en&amp;oi=ao">Google Citations</a>
+  </div>
+  </div>
+  <div class="card">
+  <h3>NOTICES</h3>
+  <div class="container">
+    <p>Safety Guidelines for COVID-19</p>
+    <p>Notice for Exams after Lockdown</p>
+  </div>
+  </div>
+</div>
+<div class="section">
+   <p>The department of CSE@IET-L has a number of course-specific laboratories with state-of-the-art systems. Each laboratory has 30-60 numbers of core i7 Intel 3.4 GHz with 8GB RAM and 1TB HDD desktops connected to 24x7 high-speed Internet connections. The laboratories are supported using Windows10 and Linux operating systems. </p>
+    <table>
+    <tr>
+    <th>Serial no.</th>
+    <th>Name of Laboratory</th>
+    <th>Contact Person</th>
+    <th>For more info</th>
+    </tr>
+    <tr>
+    <td>1</td>
+    <td>Data Structure and Algorithm Lab</td>
+    <td>Mr. Manik Chandra</td>
+    <td><a href="https://www.ietlucknow.ac.in/lab/1318">Link</a></td>
+    </tr>
+    <tr>
+    <td>2</td>
+    <td>Vision & Imaging Lab (VISIL)</td>
+    <td>Dr. Y N Singh</td>
+    <td><a href="https://www.ietlucknow.ac.in/lab/1325">Link</a></td>
+    </tr>
+    <tr>
+    <td>3</td>
+    <td>Computer Organisation and Logic Design Lab</td>
+    <td>Mr. Natthan Singh</td>
+    <td><a href="https://www.ietlucknow.ac.in/lab/1322">Link</a></td>
+    </tr>
+    <tr>
+    <td>4</td>
+    <td>Network and Information security Lab</td>
+    <td>Prof. Girish Chandra</td>
+    <td><a href="https://www.ietlucknow.ac.in/lab/1326">Link</a></td>
+    </tr>
+    <tr>
+    <td>5</td>
+    <td>Cloud Computing and Data Analytics Lab</td>
+    <td>Dr. Pawan Kumar Tiwari</td>
+    <td><a href="https://www.ietlucknow.ac.in/lab/1324">Link</a></td>
+    </tr>
+    <tr>
+    <td>6</td>
+    <td>Operating System Lab</td>
+    <td>Prof. S P Tripathi</td>
+    <td><a href="https://www.ietlucknow.ac.in/lab/1319">Link</a></td>
+    </tr>
+    <tr>
+    <td>7</td>
+    <td>Database Management Lab</td>
+    <td>Prof. D S Yadav</td>
+    <td><a href="https://www.ietlucknow.ac.in/lab/1323">Link</a></td>
+    </tr>
+    <tr>
+    <td>8</td>
+    <td>Programming Lab</td>
+    <td>Mr. Manik Chandra</td>
+    <td><a href="https://www.ietlucknow.ac.in/lab/1320">Link</a></td>
+    </tr>
+    </table>
+</div>
+<div class="footer">
+   <p>Made by Shuvanshu Gupta as part of Web Designing project. Submitted to Prof. Tulika Narang</p>
+</div>
+<script>
+window.onscroll = function() {myFunction()};
+
+var navbar = document.getElementById("navbar");
+var sticky = navbar.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+</script>
+</body>
+
+</html>
